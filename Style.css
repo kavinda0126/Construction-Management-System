@@ -1,0 +1,50 @@
+body {
+  background-image: url('images/Background4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form {
+    text-align: center;
+    border: 3px solid white ;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin-left: 550px;
+    margin-top: 70px;
+  }
+  
+  #box
+  {
+    margin-top: 100px;
+    width: 300px;
+    padding: 20px;
+  }
+
+  input[type=text], input[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+
+  #button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+  }
+  
+  #button:hover {
+    background-color: crimson;
+  }
+
+  .cna{
+    text-decoration: none;
+    padding-right: 145px;
+  }

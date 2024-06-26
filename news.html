@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>News</title>
+	<link rel="stylesheet" type="text/css" href="kdstyle.css">
+	<style>
+		
+		.contact-details {
+			text-align: left;
+		}
+
+		fieldset {
+			display: inline-block;
+			width: auto;
+			margin-right: 20px;
+		}
+
+		.register-cell {
+			vertical-align: top;
+		}
+
+		.fdcell {
+			width: 28%;
+		}
+
+		.contactcell {
+			width: 10%;
+		}
+
+		.contactdetails tr {
+			padding-bottom: 10px;
+			margin: 10px;
+		}
+
+		.contactdetails td {
+			border: 1px;
+			padding: 10px;
+		}
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+    .columns {
+      display: flex;
+      justify-content: space-between;
+    }
+    .column {
+      width: 30%;
+    }
+    .article {
+      margin-bottom: 40px;
+    }
+    .article img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    .article h2 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .article p {
+      color: #666;
+      font-size: 16px;
+    }
+    .article img {
+      width: 100%;
+      height: 200px; /* Adjust the desired height */
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    .article p.big-first-letter::first-letter {
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+		
+	
+	</style>
+
+
+<script>
+  // Run the script after the page finishes loading
+  window.addEventListener('load', function() {
+    // Get all paragraphs with the class "big-first-letter"
+    var paragraphs = document.querySelectorAll('.big-first-letter');
+
+    // Add the class "big-first-letter" dynamically to each paragraph
+    for (var i = 0; i < paragraphs.length; i++) {
+      paragraphs[i].classList.add('big-first-letter');
+    }
+  });
+</script>
+</head>
+<body>
+	<header>
+		<table>
+			<tr>
+				<td class="left-align" width="10%"><img src="img/loogo.png" alt="logo" height="150" width="150"></td>
+				<td class="left-align" width="15%">
+					<h2>CONSTRUCTIONXPERT</h2>
+					<h6><i>Buidling Excellence by CONSTRUCTIONXPERT</i></h6>
+				</td>
+				<td class="right-align" width="50%">
+                    <button class="my-button">Log in</button> 
+                    
+                    <button class="my-button">Sign up</button> <br><br><br>
+                    <input type="text" placeholder="Search" class="search-bar" style="width: 400px;">
+
+                    <button class="my-button" >Search</button>
+                </td>
+			</tr>
+		</table>
+		<hr>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Project</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Help</a></li>
+			</ul>
+		</nav>
+		<hr>
+	</header>
+	<br><br><br>
+
+  <div class="columns">
+    <div class="column">
+      <div class="article">
+        <img src="img/cuttinge.jpeg" alt="Image 1">
+        <h2>Cutting-Edge Technologies Shaping the Future of Construction</h2>
+        <p class="big-first-letter">Discover how emerging technologies such as artificial intelligence, robotics, virtual reality, and 3D printing are revolutionizing the construction industry. These advanced technologies are streamlining construction processes, improving safety standards, and reducing project timelines. From autonomous construction vehicles to smart wearables, explore the latest breakthroughs and their potential impact on the construction landscape.</p>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="article">
+        <img src="img/sustainablec.jpg" alt="Image 2">
+        <h2>Sustainable Construction Practices for a Greener Future</h2>
+        <p class="big-first-letter">Learn about the latest sustainable construction practices that are helping to minimize the environmental impact of building projects. From green building materials to energy-efficient designs, the construction industry is embracing sustainability to reduce carbon footprints and promote eco-friendly construction. Discover innovative techniques like passive house construction, zero-energy buildings, and sustainable site development that are leading the way towards a greener future.</p>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="article">
+        <img src="img/smartcity.jpg" alt="Image 3">
+        <h2>Smart Cities: Transforming Urban Development</h2>
+        <p class="big-first-letter">Explore the concept of smart cities and how they are changing the way we live, work, and interact within urban environments. Smart city technologies, including Internet of Things (IoT) sensors, data analytics, and intelligent infrastructure, are enabling efficient resource management, enhancing public safety, and improving the overall quality of life. Discover how these interconnected systems are reshaping urban development, sustainability, and citizen experiences in cities around the world.</p>
+      </div>
+    </div>
+  </div>
+
+    
+
+
+
+
+
+    <footer>
+        <div>
+            <table class="first-table">
+                <tr>
+                    <td class="left-align" width="15%"><img src="img/loogo.png" alt="logo" height="130" width="130"><br><br<br></td>
+                    <td class="left-align">
+                        <h3><i>Buidling Excellence by CONSTRUCTIONXPERT</i></h3>
+                    </td>
+                    <td class="middle-align">
+                        <table>
+                            <tr>
+                                <td class="middle-align"><a href="#"><img src="img/fbwhite.png" alt="FB" height="50" width="50"></a></td>
+                                <td class="middle-align"><a href="#"><img src="img/linkedinwhite.png" alt="LinkedIn" height="30" width="30"></a></td>
+                                <td class="middle-align"><a href="#"><img src="img/whatsappwhite.png" alt="Whatsapp" height="30" width="30"></a></td>
+                                <td class="middle-align"><a href="#"><img src="img/telewhite.png" alt="Tele" height="30" width="30"></a></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+     
+        </div>
+        
+        <table>
+            <tr>
+                <td class="middle-align">
+                    <a href="#">Privacy Policy</a>
+                </td>
+                <td class="middle-align">
+                    |
+                </td>
+                <td class="middle-align">
+                     <a href="#">Terms of Service</a>
+                </td>
+                <td class="middle-align">
+                    |
+                </td>
+                <td class="middle-align">
+                    <a href="#">Copyright Policy</a>
+                </td>
+                <td class="middle-align">
+                    |
+                </td>
+                <td class="middle-align">
+                    <a href="#">Contact Us</a>
+                </td>
+                <td class="middle-align">
+                    <a href="#"><img src="img/qr.png" alt="QR" height="50" width="50"></a>
+                </td>
+            </tr>
+        </table>
+        <p>&copy; ConstructionXpert Pvt Ltd. All rights reserved.</p>
+        </div>
+        
+    </footer>
+    
